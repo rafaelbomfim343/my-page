@@ -133,7 +133,7 @@ Esta experiência me permitiu desenvolver uma visão 360° da logística em gran
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/renea_infraestrutura_cover.jpg",
+            src: "/images/projects/project-01/renea_infraestrutura_cover.jpeg",
             alt: "Once UI Project",
             width: 16,
             height: 9,

@@ -6,7 +6,7 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "",
+  role: "Estudante do Bacharelado em Ciência e Tecnologia UFABC",
   avatar: "/images/avatar.jpg",
   email: "rafael.bomfim@aluno.ufabc.edu.br",
   location: "America/Sao_Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -173,7 +173,7 @@ Essa experiência reforçou minha capacidade de liderar times sob pressão, alin
     title: "Experiência Acadêmica",
     institutions: [
       {
-        name: "UniversitUniversidade São Judas Tadeu",
+        name: "Universidade São Judas Tadeu",
         description: <>Engenharia de Computação</>,
       },
       {

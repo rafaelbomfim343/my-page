@@ -1,16 +1,16 @@
 import { Logo } from "@once-ui-system/core";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Rafael",
+  lastName: "Bomfim",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "rafael.bomfim@aluno.ufabc.edu.br",
+  location: "America/Sao_Paulo", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["Inglês", "Portugês"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,17 +30,17 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/rafaelbomfim343/",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/rafael-bomfim-431a0623a/",
   },
   {
     name: "Threads",
     icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.threads.com/@rafaelbomfim344",
   },
   {
     name: "Email",
@@ -71,8 +71,8 @@ const home = {
 
 const about = {
   path: "/about",
-  label: "About",
-  title: `About – ${person.name}`,
+  label: "Sobre",
+  title: `Sobre – ${person.name}`,
   description: `Meet ${person.name}, ${person.role} from ${person.location}`,
   tableOfContent: {
     display: true,
@@ -87,37 +87,53 @@ const about = {
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "Introdução",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        "Sou o Rafael Bomfim, estudante de Engenharia na UFABC, e aqui compartilho meus projetos e aprendizados nas áreas de dados, tecnologia e gestão. Minha jornada inclui desde a coleta e engenharia de dados até a criação de dashboards claros e eficientes, sempre buscando transformar informações em soluções. Como administrador de sistemas Linux, desenvolvi habilidades técnicas robustas, enquanto minha experiência em liderança de equipes me ensinou a alinhar objetivos técnicos e humanos. Este portfólio reflete minha paixão por resolver problemas complexos e meu compromisso com a evolução constante. Vamos conversar?"
       </>
     ),
   },
   work: {
     display: true, // set to false to hide this section
-    title: "Work Experience",
+    title: "Experiência Profissional",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "RENEA / Odebrecht",
+        timeframe: "2020 - 2025",
+        role: "Supervisor de Logística",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+           "Como Supervisor de Logística na RENEA (Odebrecht), fui responsável pela gestão operacional no setor de logística da obra do Rodoanel Mario Covas, combinando liderança de equipe com análise de dados para otimização de processos. Minhas principais responsabilidades incluíam:
+
+    Gestão Integrada: Coordenação de frota veicular e equipe operacional, garantindo o abastecimento contínuo de materiais e o cumprimento de prazos.
+
+    Automação e Análise de Dados:
+
+        Utilização de Python para tratamento de dados e automação de relatórios
+
+        Desenvolvimento de queries em SQL (MySQL/PostgreSQL) para extração e cruzamento de informações
+
+        Criação de dashboards interativos no Power BI e Tableau
+
+        Elaboração de relatórios avançados e planilhas dinâmicas no Excel (incluindo VBA e Power Query)
+
+    Tomada de Decisão: Análise de KPIs logísticos (custos operacionais, produtividade, ociosidade) com apresentação de insights estratégicos à diretoria.
+
+Esta experiência me permitiu desenvolver uma visão 360° da logística em grandes obras, aliando gestão de pessoas com ferramentas de análise de dados para criar soluções eficientes em ambientes de alta pressão."
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            "redução de 15% nos custos logísticos através de análise preditiva"
           </>,
+                    <>
+            "Aumento de 25% na produtividade da equipe após implementação de métricas"
+          </>,
+
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/projects/project-01/renea_infraestrutura_cover.jpg",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -125,18 +141,28 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "California Aços Finos",
+        timeframe: "2015 - 2020",
+        role: "Motorista Lider de Equipe",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+           "Na California Aços Finos, atuei como Motorista Líder de Equipe, responsável por coordenar e gerenciar uma equipe de motoristas, garantindo a eficiência operacional e a segurança no transporte de materiais. Minhas principais atribuições incluíam:
+
+    Gestão de Equipe e Rotas: Organização de escalas, planejamento de rotas logísticas e monitoramento em tempo real para otimizar prazos e reduzir custos.
+
+    Análise de Dados e KPIs: Geração de relatórios semanais com indicadores de desempenho (como tempo de entrega, consumo de combustível e ocorrências), utilizando dashboards intuitivos para visualização clara dos dados.
+
+    Tomada de Decisão: Identificação de gargalos operacionais e proposição de soluções baseadas em dados, contribuindo para melhorias contínuas nos processos logísticos.*
+
+Essa experiência reforçou minha capacidade de liderar times sob pressão, alinhar operações a metas estratégicas e transformar dados em ações concretas – habilidades que aplico hoje em projetos de engenharia e análise de dados."
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            "Redução de 22% nos custos logísticos através de readequação de rotas"
           </>,
+                    <>
+            "Criação de sistema de alertas para manutenção preventiva de veículos"
+          </>,
+
         ],
         images: [],
       },
@@ -144,35 +170,40 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Experiência Acadêmica",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "UniversitUniversidade São Judas Tadeu",
+        description: <>Engenharia de Computação</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "instituto Federal de São paulo - IFSP",
+        description: <>Engenharia Eletrônica</>,
       },
+            {
+        name: "Universidade Federal do ABC - UFABC",
+        description: <>Bacharelado em Ciência e Tecnologia BC&T, Engenharia de Energia, Engenharia de Controle e Automação</>,
+      },
+
     ],
   },
   technical: {
     display: true, // set to false to hide this section
-    title: "Technical skills",
+    title: "Habilidades Técnicas ",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "AWS DevOPs",
+        description: <>certificação AWS Certified Cloud</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/AWS.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/AWS_Cloud-Practitioner.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -180,12 +211,12 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Inglês",
+        description: <>Certificação English Level 1 IFSP</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-01/certificado.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -198,8 +229,8 @@ const about = {
 
 const blog = {
   path: "/blog",
-  label: "Blog",
-  title: "Writing about design and tech...",
+  label: "Social",
+  title: "Vida Pessoal e Objetivos ",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
@@ -207,7 +238,7 @@ const blog = {
 
 const work = {
   path: "/work",
-  label: "Work",
+  label: "Trabalho",
   title: `Projects – ${person.name}`,
   description: `Design and dev projects by ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
@@ -216,7 +247,7 @@ const work = {
 
 const gallery = {
   path: "/gallery",
-  label: "Gallery",
+  label: "Galleria de Imagens",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
   // Images by https://lorant.one
